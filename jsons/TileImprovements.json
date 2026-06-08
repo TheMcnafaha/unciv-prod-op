@@ -1,0 +1,140 @@
+[
+	{
+		"name": "Hill Manager",
+		"replaces": "Mine",
+		"uniqueTo": "Productivity Cult",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"food": 1,
+		"turnsToBuild": 7,
+		"greatPersonPoints": {
+			"Great Engineer": 2
+		},
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"[+4 Production] for each adjacent [Mountain]",
+			"[+4 Production] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+4 Production] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"Pillaging this improvement yields approximately [+56 Gold]"
+		],
+		"techRequired": "Construction",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Waterfront Venue",
+		"uniqueTo": "Productivity Cult",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can only be built on [Coastal] tiles",
+			"[+1 Gold] for each adjacent [Waterfront Venue]",
+			"[+1 Happiness] for each adjacent [Waterfront Venue]",
+			"[+4 Gold] <after discovering [Flight]>",
+			"Pillaging this improvement yields approximately [+1000 Gold]"
+		],
+		"techRequired": "Construction",
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Bike Lanes",
+		"uniqueTo": "Productivity Cult",
+		"replaces": "Railroad",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 2,
+		"techRequired": "The Wheel",
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [6] [Gold] per turn"
+		],
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{
+				"text": "Reduces movement cost to ⅒ if the other tile also has a Railroad"
+			},
+			{
+				"text": "Provides a +25% [Production] bonus to cities connected to the capital by Railroads"
+			}
+		]
+	},
+	{
+		"name": "Monopoly House",
+		"uniqueTo": "Productivity Cult",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Forest",
+			"Jungle",
+			"Flood plains"
+		],
+		"gold": 4,
+		"turnsToBuild": 12,
+		"techRequired": "Guilds",
+		"uniques": [
+			"[+3 Gold] <after discovering [Economics]>",
+			"Can be built outside your borders",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"[+1 Gold] for each adjacent [Railroad]"
+		],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Supra Manager",
+		"uniqueTo": "Productivity Cult",
+		"replaces": "Manufactory",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"production": 8,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Production] <after discovering [Chemistry]>",
+			"Will not be replaced by automated units",
+			"Removes removable features when built",
+			"[+32 Production] for each adjacent [Hill Manager]",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Marketing House",
+		"uniqueTo": "Productivity Cult",
+		"replaces": "Customs House",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"gold": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"[-10]% maintenance on road & railroads",
+			"[+20]% [Gold] from every [Monopoly House]",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Watchtower",
+		"uniqueTo": "Productivity Cult",
+		"replaces": "Citadel",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [200]%",
+			"Can be built just outside your borders",
+			"Gain control over [all] tiles in a [3]-tile radius",
+			"Removes removable features when built",
+			"Will not be replaced by automated units"
+		]
+	}
+]
