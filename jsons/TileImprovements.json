@@ -64,6 +64,7 @@
 	},
 	{
 		"name": "Monopoly House",
+		"replaces": "Trading post",
 		"uniqueTo": "Productivity Cult",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
@@ -77,7 +78,7 @@
 		],
 		"gold": 4,
 		"turnsToBuild": 12,
-		"techRequired": "Guilds",
+		"techRequired": "Trapping",
 		"uniques": [
 			"[+3 Gold] <after discovering [Economics]>",
 			"Can be built outside your borders",
@@ -116,8 +117,7 @@
 			"[+1 Gold] <after discovering [Economics]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units",
-			"[-10]% maintenance on road & railroads",
-			"[+20]% [Gold] from every [Monopoly House]",
+			"[+20]% [Gold] from every [Trading post]",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
