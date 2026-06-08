@@ -1,0 +1,32 @@
+[
+	{
+		"name": "TED Talk",
+		"replaces": "Workshop",
+		"uniqueTo": "Productivity Cult",
+		"cost": 300,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {
+			"Engineer": 6
+		},
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Production] per [2] population [in this city]"
+		],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Kanboard",
+		"replaces": "Ironworks",
+		"cost": 400,
+		"production": 14,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [40] per owned city",
+			"[+18 Production] per [4] population [in this city]"
+		],
+		"requiredTech": "Machinery"
+	}
+]
