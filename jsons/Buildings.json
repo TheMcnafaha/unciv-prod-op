@@ -17,6 +17,7 @@
 	},
 	{
 		"name": "Kanboard",
+		"uniqueTo": "Productivity Cult",
 		"replaces": "Ironworks",
 		"cost": 400,
 		"production": 14,
