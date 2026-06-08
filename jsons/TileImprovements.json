@@ -105,7 +105,7 @@
 		]
 	},
 	{
-		"name": "Marketing House",
+		"name": "Monopoly Hotel",
 		"uniqueTo": "Productivity Cult",
 		"replaces": "Customs house",
 		"terrainsCanBeBuiltOn": [
@@ -117,7 +117,7 @@
 			"[+1 Gold] <after discovering [Economics]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units",
-			"[+20]% [Gold] from every [Trading post]",
+			"[+12 Gold, +2 Production] for each adjacent [Monopoly House]",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
