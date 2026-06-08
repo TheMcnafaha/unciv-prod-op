@@ -106,7 +106,7 @@
 	{
 		"name": "Marketing House",
 		"uniqueTo": "Productivity Cult",
-		"replaces": "Customs House",
+		"replaces": "Customs house",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
