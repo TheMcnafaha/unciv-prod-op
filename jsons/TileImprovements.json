@@ -6,7 +6,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Hill"
 		],
-        "production": 3,
+		"production": 3,
 		"turnsToBuild": 7,
 		"greatPersonPoints": {
 			"Great Engineer": 2
@@ -44,6 +44,53 @@
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
+	{
+		"name": "Large Mammal Mastery Boutique",
+		"uniqueTo": "Productivity Cult",
+		"replaces": "Camp",
+		"turnsToBuild": 28,
+		"production": 6,
+		"food": 3,
+		"techRequired": "Trapping",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+15 Gold] <after discovering [Economics]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
+	{
+		"name": "Palm Oil Inc",
+		"uniqueTo": "Productivity Cult",
+		"replaces": "Lumber mill",
+		"terrainsCanBeBuiltOn": [
+			"Forest"
+		],
+		"production": 8,
+		"turnsToBuild": 32,
+		"techRequired": "Construction",
+		"uniques": [
+			"[+1 Production] <after discovering [Scientific Theory]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "L"
+	},
+{
+		"name": "Pyson Foods",
+		"uniqueTo": "Productivity Cult",
+		"replaces": "Pasture",
+        "turnsToBuild": 24,
+		"food":8,
+        "techRequired": "Animal Husbandry",
+        "uniques": [
+            "[+1 Food] <after discovering [Fertilizer]>",
+			"[+4 Food] for each adjacent [Pyson Foods]",
+            "Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+10 Gold]"
+        ],
+        "shortcutKey": "P"
+    },
 	{
 		"name": "Bike Lanes",
 		"uniqueTo": "Productivity Cult",
@@ -120,10 +167,11 @@
 		"gold": 4,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Gold] <after discovering [Economics]>",
+			"[+18 Gold] <after discovering [Economics]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units",
 			"[+12 Gold, +12 Production] for each adjacent [Monopoly House]",
+			"[+12 Gold, +12 Production] for each adjacent [Monopoly House] <after discovering [Economics]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
