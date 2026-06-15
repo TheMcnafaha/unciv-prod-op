@@ -23,6 +23,23 @@
 		"shortcutKey": "F"
 	},
 	{
+		"name": "Industrial Fishing",
+		"replaces": "Fishing Boats",
+		"uniqueTo": "Productivity Cult",
+        "turnsToBuild": 1, 
+        "terrainsCanBeBuiltOn": [
+            "Coast"
+        ],
+        "food": 4,
+        "techRequired": "Sailing",
+        "uniques": [
+            "[+1 Gold] <after discovering [Compass]>",
+			"[+4 Food] for each adjacent [Pyson Foods]",
+            "Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+10 Gold]"
+        ],
+        "shortcutKey": "F"
+    },{
 		"name": "Waterfront Venue",
 		"uniqueTo": "Productivity Cult",
 		"terrainsCanBeBuiltOn": [
@@ -76,21 +93,21 @@
 		],
 		"shortcutKey": "L"
 	},
-{
+	{
 		"name": "Pyson Foods",
 		"uniqueTo": "Productivity Cult",
 		"replaces": "Pasture",
-        "turnsToBuild": 24,
-		"food":8,
-        "techRequired": "Animal Husbandry",
-        "uniques": [
-            "[+1 Food] <after discovering [Fertilizer]>",
+		"turnsToBuild": 24,
+		"food": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": [
+			"[+1 Food] <after discovering [Fertilizer]>",
 			"[+4 Food] for each adjacent [Pyson Foods]",
-            "Can only be built to improve a resource",
-            "Pillaging this improvement yields approximately [+10 Gold]"
-        ],
-        "shortcutKey": "P"
-    },
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
 	{
 		"name": "Bike Lanes",
 		"uniqueTo": "Productivity Cult",
