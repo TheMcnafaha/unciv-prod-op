@@ -6,7 +6,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Hill"
 		],
-		"food": 1,
+        "production": 3,
 		"turnsToBuild": 7,
 		"greatPersonPoints": {
 			"Great Engineer": 2
@@ -14,6 +14,7 @@
 		"uniques": [
 			"Cannot be built on [Bonus resource] tiles",
 			"[+4 Production] for each adjacent [Mountain]",
+			"[+1 Production] for each adjacent [Hill Manager]",
 			"[+4 Production] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+4 Production] from [non-fresh water] tiles <after discovering [Fertilizer]>",
 			"Pillaging this improvement yields approximately [+56 Gold]"
