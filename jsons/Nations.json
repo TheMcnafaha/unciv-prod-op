@@ -69,7 +69,9 @@
 		],
 		"uniqueName": "Purification",
 		"uniques": [
-			"Starts with [Railroads]"
+			"Starts with [Railroads]",
+			"Starts with [Steam Power]",
+			"Starts with [Dynamite]"
 		],
 		"cities": [
 			"Ketilsstaoir",
