@@ -1,7 +1,6 @@
 [
 	{
 		"name": "Hill Manager",
-		"replaces": "Mine",
 		"uniqueTo": "Productivity Cult",
 		"terrainsCanBeBuiltOn": [
 			"Hill"
