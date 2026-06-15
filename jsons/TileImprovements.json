@@ -24,38 +24,37 @@
 	},
 	{
 		"name": "Industrial Fishing",
-		"replaces": "Fishing Boats",
 		"uniqueTo": "Productivity Cult",
-        "turnsToBuild": 1, 
-        "terrainsCanBeBuiltOn": [
-            "Coast"
-        ],
-        "food": 4,
-        "techRequired": "Sailing",
-        "uniques": [
-            "[+1 Gold] <after discovering [Compass]>",
-			"[+4 Food] for each adjacent [Pyson Foods]",
-            "Can only be built to improve a resource",
-            "Pillaging this improvement yields approximately [+10 Gold]"
-        ],
-        "shortcutKey": "F"
-    },{
+		"turnsToBuild": 1,
+		"terrainsCanBeBuiltOn": [
+			"Coast"
+		],
+		"food": 6,
+		"techRequired": "Sailing",
+		"uniques": [
+			"[+1 Gold] <after discovering [Compass]>",
+			"[+6 Food] for each adjacent [Industrial Fishing]",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
 		"name": "Waterfront Venue",
 		"uniqueTo": "Productivity Cult",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
-		"culture": 1,
-		"turnsToBuild": 4,
+		"culture": 2,
+		"turnsToBuild": 8,
 		"uniques": [
 			"Can only be built on [Coastal] tiles",
 			"[+2 Gold] for each adjacent [Waterfront Venue]",
 			"[+1 Happiness] for each adjacent [Waterfront Venue]",
-			"[+4 Gold] <after discovering [Flight]>",
-			"[+1 Gold] for each adjacent [Waterfront Venue] <after discovering [Pottery]>",
 			"[+1 Gold] for each adjacent [Waterfront Venue] <after discovering [Currency]>",
-			"[+2 Gold] for each adjacent [Waterfront Venue] <after discovering [Guilds]>",
 			"[+2 Gold] for each adjacent [Waterfront Venue] <after discovering [Economics]>",
+			"[+1 Happiness] for each adjacent [Waterfront Venue] <after discovering [Economics]>",
+			"[+4 Gold] <after discovering [Flight]>",
 			"Pillaging this improvement yields approximately [+1000 Gold]"
 		],
 		"techRequired": "Construction",
@@ -64,7 +63,6 @@
 	{
 		"name": "Large Mammal Mastery Boutique",
 		"uniqueTo": "Productivity Cult",
-		"replaces": "Camp",
 		"turnsToBuild": 28,
 		"production": 6,
 		"food": 3,
@@ -80,7 +78,6 @@
 	{
 		"name": "Palm Oil Inc",
 		"uniqueTo": "Productivity Cult",
-		"replaces": "Lumber mill",
 		"terrainsCanBeBuiltOn": [
 			"Forest"
 		],
@@ -107,29 +104,6 @@
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "P"
-	},
-	{
-		"name": "Bike Lanes",
-		"uniqueTo": "Productivity Cult",
-		"replaces": "Railroad",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
-		"turnsToBuild": 2,
-		"techRequired": "The Wheel",
-		"uniques": [
-			"Can be built outside your borders",
-			"Costs [6] [Gold] per turn"
-		],
-		"shortcutKey": "R",
-		"civilopediaText": [
-			{
-				"text": "Reduces movement cost to ⅒ if the other tile also has a Railroad"
-			},
-			{
-				"text": "Provides a +25% [Production] bonus to cities connected to the capital by Railroads"
-			}
-		]
 	},
 	{
 		"name": "Monopoly House",
@@ -187,8 +161,8 @@
 			"[+18 Gold] <after discovering [Economics]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units",
-			"[+12 Gold, +12 Production] for each adjacent [Monopoly House]",
-			"[+12 Gold, +12 Production] for each adjacent [Monopoly House] <after discovering [Economics]>",
+			"[+18 Gold, +6 Production] for each adjacent [Monopoly House]",
+			"[+36 Gold, +12 Production] for each adjacent [Monopoly House] <after discovering [Economics]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
