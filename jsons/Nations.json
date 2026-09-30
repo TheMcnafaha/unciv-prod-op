@@ -23,7 +23,8 @@
 		"uniqueName": "PIP",
 		"uniques": [
 			"[+200]% [Production]",
-			"Starts with [Railroads]"
+			"Starts with [Railroads]",
+            "Free [Great Engineer] appears <upon discovering [Railroads] technology>",
 		],
 		"cities": [
 			"Ketilsstaoir",
