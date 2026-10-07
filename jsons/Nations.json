@@ -24,7 +24,9 @@
 		"uniques": [
 			"[+200]% [Production]",
 			"Starts with [Railroads]",
-            "Free [Great Engineer] appears <upon discovering [Railroads] technology>",
+			"Starts with [Education]",
+			"Starts with [Construction]",
+            		"Free [Great Engineer] appears <upon discovering [Railroads] technology>",
 		],
 		"cities": [
 			"Ketilsstaoir",
