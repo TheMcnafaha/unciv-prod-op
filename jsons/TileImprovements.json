@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Hill Manager",
+		"replaces": "Mine",
 		"uniqueTo": "Productivity Cult",
 		"terrainsCanBeBuiltOn": [
 			"Hill"
@@ -45,7 +46,7 @@
 			"Land"
 		],
 		"culture": 2,
-		"turnsToBuild": 8,
+		"turnsToBuild": 6,
 		"uniques": [
 			"Can only be built on [Coastal] tiles",
 			"[+2 Gold] for each adjacent [Waterfront Venue]",
@@ -141,6 +142,7 @@
 		"uniques": [
 			"Great Improvement",
 			"[+1 Production] <after discovering [Chemistry]>",
+			"[+16 Production] for each adjacent [Mountain]",
 			"Will not be replaced by automated units",
 			"Removes removable features when built",
 			"[+32 Production] for each adjacent [Hill Manager]",
